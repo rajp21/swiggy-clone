@@ -1,0 +1,27 @@
+.footer{
+    padding:10%;
+    width:100%
+    
+}
+.googleplayicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+    background-color: #F0F0F5;
+    width: 100%; 
+    padding: 5%;
+}
+@media (max-width: 950px){
+
+.googleplayicon h1{
+   display: none;
+}
+}
+
+.play_store{
+   width: 40%;
+}
+.app_store{
+    width: 40%
+}
